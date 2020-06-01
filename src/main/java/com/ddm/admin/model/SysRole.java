@@ -3,6 +3,8 @@ package com.ddm.admin.model;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import java.util.List;
+
 @Data
 @EqualsAndHashCode(callSuper = true)
 public class SysRole extends BaseEntity<Integer> {
@@ -18,4 +20,7 @@ public class SysRole extends BaseEntity<Integer> {
                 ", description='" + description + '\'' +
                 '}';
     }
+
+
+
 }
